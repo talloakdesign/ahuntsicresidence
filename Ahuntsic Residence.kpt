@@ -1,0 +1,1204 @@
+<panotour version="2.5.8.400">
+ <project workspaceWidth="2262" VRkeepview="right" autorotationDelay="1" hideControlsDuringIntroduction="true" startZoomOnCursor="false" startMouseType="drag" autotourMode="autotourModeFull" startVolume="36" autorotationDirection="right" relativePath="True" workspaceOriginY="-1" startChangeCursor="true" startTouchType="drag" workspaceOriginX="-1" VRCursorColor="#ffffff" startSoundsON="true" VRCursorAlpha="255" VRcursordisplay="always" objectId="0" autorotationSpeed="5" startControlsHidden="false" VRIconsColor="#ffffff" workspaceHeight="709" startWithAutotour="true" VRIconsAlpha="255" workspaceScale="-1" VRdesktop="right" startWithLittlePlanet="false">
+  <description foregroundColor="#000000" foregroundAlpha="255" name="Residence Ahuntsic" backgroundColor="#ffffff" backgroundAlpha="255"/>
+  <group nbColumn="-1" y="129" objectId="105929" x="23" thumbMode="False" explicit="False">
+   <description foregroundColor="#ffffff" foregroundAlpha="255" name="Group 105929" backgroundColor="#808080" backgroundAlpha="255"/>
+   <pano minFov="1" startFov="90" y="380" vFov="180" hFov="360" lowres="true" maxPixelZoom="true" maxFov="90" type="0" x="575" startPitch="0" phi="0" heading="0" objectId="105928" startYaw="0" dontGenerateTiles="false" tourDirectory="rue_saint_hubert_105928" planar="false">
+    <description foregroundColor="#000000" foregroundAlpha="255" filename="Processed/20171015-094620.jpg" name="Rue Saint-Hubert" backgroundColor="#ffffff" gpsAutospot="true" backgroundAlpha="255">
+     <gps longitude="-73.636879111045" latitude="45.549811505698"/>
+    </description>
+    <spot relativeY="0.524568" y="34.3426" relativeX="0.615129" objectId="105944" x="87.2694" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105932" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="49.95" type="Object" contentTemplate="" sourceId="105928" internal="0" description="Go to Parc-du-boise-de-saint-sulpice" startPitch="-10.35" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group nbColumn="-1" y="129" objectId="105933" x="214" thumbMode="False" explicit="False">
+   <description foregroundColor="#ffffff" foregroundAlpha="255" name="Group 105933" backgroundColor="#808080" backgroundAlpha="255"/>
+   <pano minFov="1" startFov="90" y="376" vFov="180" hFov="360" lowres="true" maxPixelZoom="true" maxFov="90" type="0" x="749" startPitch="0" phi="0" heading="0" objectId="105932" startYaw="0" dontGenerateTiles="false" tourDirectory="parc_du_boise_de_sai_105932" planar="false">
+    <description foregroundColor="#000000" foregroundAlpha="255" filename="Processed/20171015-094723.jpg" name="Parc-du-boise-de-saint-sulpice" backgroundColor="#ffffff" gpsAutospot="true" backgroundAlpha="255">
+     <gps longitude="-73.636732930654" latitude="45.549992763406"/>
+    </description>
+    <spot relativeY="0.536521" y="35.239" relativeX="0.102853" objectId="105945" x="10.428" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105928" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="-135" type="Object" contentTemplate="" sourceId="105932" internal="0" description="Go to Rue Saint-Hubert" startPitch="4.95" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot relativeY="0.527224" y="34.5418" relativeX="0.455209" objectId="105946" x="63.2814" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105935" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="30.6" type="Object" contentTemplate="" sourceId="105932" internal="0" description="Go to Côté ouest du parc" startPitch="-0.45" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot relativeY="0.535193" y="35.1394" relativeX="0.705375" objectId="105947" x="100.806" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105937" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="59.4" type="Object" contentTemplate="" sourceId="105932" internal="0" description="Go to Entrée principale" startPitch="-3.15" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group nbColumn="-1" y="5" objectId="105936" x="368" thumbMode="False" explicit="False">
+   <description foregroundColor="#ffffff" foregroundAlpha="255" name="Group 105936" backgroundColor="#808080" backgroundAlpha="255"/>
+   <pano minFov="1" startFov="90" y="453" vFov="180" hFov="360" lowres="true" maxPixelZoom="true" maxFov="90" type="0" x="1007" startPitch="0" phi="0" heading="0" objectId="105935" startYaw="0" dontGenerateTiles="false" tourDirectory="cote_ouest_du_parc_105935" planar="false">
+    <description foregroundColor="#000000" foregroundAlpha="255" filename="Processed/20171015-094839.jpg" name="Côté ouest du parc" backgroundColor="#ffffff" gpsAutospot="true" backgroundAlpha="255">
+     <gps longitude="-73.636846924537" latitude="45.550150541661"/>
+    </description>
+    <spot relativeY="0.517928" y="33.8446" relativeX="0.00464499" objectId="105948" x="-4.30325" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105932" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="-167.4" type="Object" contentTemplate="" sourceId="105935" internal="0" description="Go to Parc-du-boise-de-saint-sulpice" startPitch="1.35" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot relativeY="0.5166" y="33.745" relativeX="0.874585" objectId="105949" x="126.188" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105937" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="103.05" type="Object" contentTemplate="" sourceId="105935" internal="0" description="Go to Entrée principale" startPitch="0.45" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group nbColumn="-1" y="237" objectId="105938" x="400" thumbMode="False" explicit="False">
+   <description foregroundColor="#ffffff" foregroundAlpha="255" name="Group 105938" backgroundColor="#808080" backgroundAlpha="255"/>
+   <pano minFov="1" startFov="90" y="486" vFov="180" hFov="360" lowres="true" maxPixelZoom="true" maxFov="90" type="0" x="1221" startPitch="0" phi="0" heading="0" objectId="105937" startYaw="0" dontGenerateTiles="false" tourDirectory="entree_principale_105937" planar="false">
+    <description foregroundColor="#000000" foregroundAlpha="255" filename="Processed/20171015-095007.jpg" name="Entrée principale" backgroundColor="#ffffff" gpsAutospot="true" backgroundAlpha="255">
+     <gps longitude="-73.636581385844" latitude="45.550039721266"/>
+    </description>
+    <spot relativeY="0.524568" y="34.3426" relativeX="0.374917" objectId="105950" x="51.2376" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105935" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="105937" internal="0" description="Go to Côté ouest du parc" startPitch="0" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot relativeY="0.531209" y="34.8406" relativeX="0.217651" objectId="105951" x="27.6476" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105932" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="-122.4" type="Object" contentTemplate="" sourceId="105937" internal="0" description="Go to Parc-du-boise-de-saint-sulpice" startPitch="-3.6" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot relativeY="0.524568" y="34.3426" relativeX="0.646317" objectId="105952" x="91.9476" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105940" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="36" type="Object" contentTemplate="" sourceId="105937" internal="0" description="Go to Foyer" startPitch="-3.15" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group nbColumn="-1" y="237" objectId="105941" x="568" thumbMode="False" explicit="False">
+   <description foregroundColor="#ffffff" foregroundAlpha="255" name="Group 105941" backgroundColor="#808080" backgroundAlpha="255"/>
+   <pano minFov="1" startFov="90" y="473" vFov="180" hFov="360" lowres="true" maxPixelZoom="true" maxFov="90" type="0" x="1108" startPitch="0" phi="0" heading="0" objectId="105940" startYaw="0" dontGenerateTiles="false" tourDirectory="foyer_105940" planar="false">
+    <description foregroundColor="#000000" foregroundAlpha="255" filename="Processed/20171015-095150.jpg" name="Foyer" backgroundColor="#ffffff" gpsAutospot="true" backgroundAlpha="255">
+     <gps longitude="-73.636525059455" latitude="45.550114853761"/>
+    </description>
+    <spot relativeY="0.551129" y="36.3347" relativeX="0.0968812" objectId="105953" x="9.53218" type="point">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action locked="False" actionChooserRef="" customTargetView="True" category="basic" targetId="105937" startFov="90" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="-112.05" type="Object" contentTemplate="" sourceId="105940" internal="0" description="Go to Entrée principale" startPitch="-3.15" depends="">
+       <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <build mobilesTour="true" baseDir="Y:/Clients/Ahuntsic Residence/Build" displayErrors="true" filename="index.html" html5Tour="true" htmlTemplate="Bubbles_2015_12.html" websiteWithCredentials="false" desktopTour="true" encryptConfig="false" lang="en,fr" exportComments="true" useMobileScale="true" imgJpegQuality="9" iBookTour="false" flashTour="false" useMultiResolution="true"/>
+  <plugins>
+   <plugin name="Logo" id="logo">
+    <param uiPreview="false" id="position_group" name="tr:Position" customize="false">
+     <position conditionalParam="viewportorsphere" yUnit="pixel" default="bottomright" needOrientation="false" y="40" yUnits="pixel" defaultOrientation="horizontal" uiPreview="false" id="position" name="tr:Position" x="40" customize="false" conditionalValues="viewport" xUnit="pixel" xUnits="pixel" availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right"/>
+     <row uiPreview="false" id="posrow" customize="false">
+      <select default="sphere" uiPreview="false" id="viewportorsphere" name="tr:Logo placement" customize="false">
+       <item name="In the interface" value="viewport"/>
+       <item name="In the panorama sphere" value="sphere"/>
+      </select>
+      <select conditionalParam="viewportorsphere" default="nadir" uiPreview="false" id="sphereposition" customize="false" conditionalValues="sphere">
+       <item name="At the nadir" value="nadir"/>
+       <item name="At the zenith" value="zenith"/>
+      </select>
+     </row>
+    </param>
+    <param uiPreview="false" id="display_group" name="tr:Display" customize="false">
+     <filechooser allowEmpty="false" default="../../Graphics/centerpole2.png" filters="images,flash" allowRemote="true" uiPreview="false" id="file" name="tr:File" customize="false"/>
+     <row uiPreview="false" id="link" customize="false">
+      <string needTranslation="true" default="http://in360.ca" uiPreview="false" id="websiteurl" name="tr:Website URL" customize="false" type="url"/>
+      <select default="_blank" uiPreview="false" id="targetarea" customize="false">
+       <item name="Open in a new window (_blank)" value="_blank"/>
+       <item name="Open in the current frame in the current window (_self)" value="_self"/>
+       <item name="Open in the parent of the current frame (_parent)" value="_parent"/>
+       <item name="Open in the top-level frame in the current window (_top)" value="_top"/>
+      </select>
+     </row>
+     <bool default="false" uiPreview="false" id="tooltips" name="tr:Show tooltip" customize="false"/>
+    </param>
+    <param uiPreview="false" id="size" name="tr:Size" customize="false" needKeepRatio="false">
+     <dimension minimum="0" default="0" uiPreview="false" availableUnits="percent,pixel" id="width" name="tr:Width" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     <dimension minimum="0" default="0" uiPreview="false" availableUnits="percent,pixel" id="height" name="tr:Height" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+    </param>
+    <param conditionalParam="tooltips" uiPreview="false" id="tooltip_group" name="tr:Tooltips style" customize="false" conditionalValues="true">
+     <string needTranslation="true" default="in360" uiPreview="false" id="tooltipText" name="tr:Tooltip" customize="false"/>
+     <bool default="false" uiPreview="false" id="custom_tooltips" name="tr:Use custom tooltips style" customize="false"/>
+     <tooltipstyle roundedge="0" shadowed="false" conditionalParam="custom_tooltips" fontfamily="Arial" borderwidth="0" displayBackground="false" uiPreview="false" fontsize="14" id="custom_tooltips_style" name="tr:Custom tooltips style" customize="false" conditionalValues="true" fontstyle="bold">
+      <foregroundColor alpha="1" color="#ffffff" source="customColor"/>
+      <backgroundColor alpha="0.8" color="#aeaeae" source="customColor"/>
+      <borderColor alpha="1" color="#ffffff" source="customColor"/>
+      <shadowColor alpha="1" color="#000000" source="customColor"/>
+     </tooltipstyle>
+    </param>
+    <param uiPreview="false" id="behavior" name="tr:Behavior" customize="false">
+     <bool default="false" uiPreview="false" id="hideonhidecontrols" name="tr:Respond to show/hide controls requests" customize="false" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component"/>
+    </param>
+    <param conditionalParam="viewportorsphere" uiPreview="false" id="" customize="false" conditionalValues="sphere">
+     <bool conditionalParam="viewportorsphere" default="false" uiPreview="false" id="zoom" name="tr:Change size according to zoom level" customize="false" conditionalValues="sphere" description="tr:Increase the size of the logo when the zoom level is higher and decrease it when the zoom level is lower"/>
+     <bool conditionalParam="viewportorsphere" default="false" uiPreview="false" id="rotatewithview" name="tr:Rotate the logo with the view" customize="false" conditionalValues="sphere" description="tr:Rotate the logo according to the view rotation"/>
+    </param>
+   </plugin>
+   <plugin name="Gyroscope" id="gyroscope">
+    <param uiPreview="false" id="warningMess" name="tr:The gyroscope plugin allows user to control the view by moving its mobile or tablet device." customize="false"/>
+    <param default="devicemotion" uiPreview="false" id="gyroMode" name="tr:Gyroscope mode" customize="false">
+     <item name="Use device orientation data" value="deviceorientation"/>
+     <item name="Use device motion and sensor data" value="devicemotion"/>
+    </param>
+    <param uiPreview="false" id="gyroModeMess" name="tr:The device motion and sensor data mode enable a more faster, more responsive, more accurate and more smoother movement." customize="false"/>
+    <param default="true" uiPreview="false" id="startActivated" name="tr:Start activated" customize="false" description="tr:Start the tour with gyroscope activated"/>
+    <param default="all" uiPreview="false" id="deviceSelector" name="tr:Devices concerned" customize="false">
+     <item name="All tablets and mobiles devices" value="all"/>
+     <item name="Only tablets" value="tablet"/>
+     <item name="Only mobiles" value="mobile"/>
+     <item name="Only iOS devices (iPhone, iPad, iPod)" value="ios"/>
+     <item name="Only Android devices" value="android"/>
+    </param>
+    <param default="false" uiPreview="false" id="pitchElastic" name="tr:Returns to device pitch after manually altering the view" customize="false"/>
+    <param default="false" uiPreview="false" id="noCamRoll" name="tr:Deactivate the roll axis" customize="false"/>
+   </plugin>
+   <plugin name="Context menu" id="contextmenu">
+    <param uiPreview="false" id="commonfeatures" customize="false">
+     <feature guiIcon="" crop="" enabled="True" uiPreview="false" id="authorwebsite" name="tr:Author website" forceEnabled="False" customize="false">
+      <label uiPreview="false" id="authorwebsitedescription" name="tr:Uses the Author name and website defined in the tour properties" customize="false"/>
+      <select default="_blank" uiPreview="false" id="targetarea0" customize="false">
+       <item name="Open in a new window (_blank)" value="_blank"/>
+       <item name="Open in the current frame in the current window (_self)" value="_self"/>
+       <item name="Open in the parent of the current frame (_parent)" value="_parent"/>
+       <item name="Open in the top-level frame in the current window (_top)" value="_top"/>
+      </select>
+     </feature>
+     <feature guiIcon="" crop="" enabled="True" uiPreview="false" id="openwebsite1" name="tr:Website 1" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="Tall Oak Design" uiPreview="false" id="openwebsitelabel1" name="tr:Label" customize="false"/>
+      <row uiPreview="false" id="link" customize="false">
+       <string needTranslation="true" default="http://talloakdesign.com" uiPreview="false" id="websiteurl1" name="tr:Website URL" customize="false" type="url"/>
+       <select default="_blank" uiPreview="false" id="targetarea1" customize="false">
+        <item name="Open in a new window (_blank)" value="_blank"/>
+        <item name="Open in the current frame in the current window (_self)" value="_self"/>
+        <item name="Open in the parent of the current frame (_parent)" value="_parent"/>
+        <item name="Open in the top-level frame in the current window (_top)" value="_top"/>
+       </select>
+      </row>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="openwebsite2" name="tr:Website 2" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="" uiPreview="false" id="openwebsitelabel2" name="tr:Label" customize="false"/>
+      <row uiPreview="false" id="link" customize="false">
+       <string needTranslation="true" default="" uiPreview="false" id="websiteurl2" name="tr:Website URL" customize="false" type="url"/>
+       <select default="_blank" uiPreview="false" id="targetarea2" customize="false">
+        <item name="Open in a new window (_blank)" value="_blank"/>
+        <item name="Open in the current frame in the current window (_self)" value="_self"/>
+        <item name="Open in the parent of the current frame (_parent)" value="_parent"/>
+        <item name="Open in the top-level frame in the current window (_top)" value="_top"/>
+       </select>
+      </row>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="openwebsite3" name="tr:Website 3" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="" uiPreview="false" id="openwebsitelabel3" name="tr:Label" customize="false"/>
+      <row uiPreview="false" id="link" customize="false">
+       <string needTranslation="true" default="" uiPreview="false" id="websiteurl3" name="tr:Website URL" customize="false" type="url"/>
+       <select default="_blank" uiPreview="false" id="targetarea3" customize="false">
+        <item name="Open in a new window (_blank)" value="_blank"/>
+        <item name="Open in the current frame in the current window (_self)" value="_self"/>
+        <item name="Open in the parent of the current frame (_parent)" value="_parent"/>
+        <item name="Open in the top-level frame in the current window (_top)" value="_top"/>
+       </select>
+      </row>
+     </feature>
+     <feature guiIcon="" crop="" enabled="True" uiPreview="false" id="fullscreen" name="tr:Fullscreen" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="Enter Fullscreen" uiPreview="false" id="openFsLabel" name="tr:Enter Fullscreen Label" customize="false"/>
+      <string needTranslation="true" default="Exit Fullscreen" uiPreview="false" id="closeFsLabel" name="tr:Exit Fullscreen Label" customize="false"/>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="vrmode" name="tr:VR mode" forceEnabled="False" customize="false">
+      <bool default="false" uiPreview="false" id="vr_mobile_only" name="tr:Available only on mobile device" customize="false"/>
+      <string needTranslation="true" default="Enter VR mode" uiPreview="false" id="openVrLabel" name="tr:Enter VR mode Label" customize="false"/>
+     </feature>
+    </param>
+    <param default="false" uiPreview="false" id="projectionentries" name="tr:Add projection entries" customize="false"/>
+    <param conditionalParam="projectionentries" uiPreview="false" id="projections" name="tr:Available projections" customize="false" conditionalValues="true">
+     <feature guiIcon="" crop="" enabled="True" uiPreview="false" id="normal" name="tr:Normal View" forceEnabled="True" customize="false">
+      <string needTranslation="true" default="Normal View" uiPreview="false" id="normallabel" name="tr:Normal View label" customize="false"/>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="fisheye" name="tr:Fisheye View" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="Fisheye View" uiPreview="false" id="fisheyelabel" name="tr:Fisheye View label" customize="false"/>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="architectural" name="tr:Architectural View" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="Architectural View" uiPreview="false" id="architecturallabel" name="tr:Architectural View label" customize="false"/>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="stereographic" name="tr:Stereographic View" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="Stereographic View" uiPreview="false" id="stereographiclabel" name="tr:Stereographic View label" customize="false"/>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="pannini" name="tr:Pannini View" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="Pannini View" uiPreview="false" id="panninilabel" name="tr:Pannini View label" customize="false"/>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="littleplanet" name="tr:Little Planet View" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="Little Planet View" uiPreview="false" id="littleplanetlabel" name="tr:Little Planet View label" customize="false"/>
+     </feature>
+     <feature guiIcon="" crop="" enabled="False" uiPreview="false" id="fisheyeball" name="tr:Fisheye Ball View" forceEnabled="False" customize="false">
+      <string needTranslation="true" default="Fisheye Ball View" uiPreview="false" id="fisheyeballlabel" name="tr:Fisheye Ball View label" customize="false"/>
+     </feature>
+    </param>
+    <param default="false" uiPreview="false" id="touchdisabled" name="tr:Disable on touch devices" customize="false"/>
+    <param conditionalParam="touchdisabled" default="macosx" uiPreview="false" id="customstyle" name="tr:Devices custom style" customize="false" conditionalValues="false" description="tr:The custom style will be used for the HTML5 devices viewer only">
+     <item name="Default look" value="default"/>
+     <item name="iOS and Android look" value="iosandroid"/>
+     <item name="Mac OSX look" value="macosx"/>
+     <item name="Windows native look" value="windows"/>
+    </param>
+   </plugin>
+   <plugin name="Progress Bar and Loopings" id="progressbar">
+    <param default="true" uiPreview="false" id="showloadVisible" name="tr:Display loading bar" customize="false"/>
+    <param conditionalParam="showloadVisible" uiPreview="false" id="showload" name="tr:Loading bar" customize="false" conditionalValues="true">
+     <position yUnit="pixel" default="center" needOrientation="false" y="50" yUnits="pixel" defaultOrientation="horizontal" uiPreview="false" id="showloadPosition" name="tr:Position" x="0" customize="false" xUnit="pixel" xUnits="pixel" availableValues="topleft,left,bottomleft,top,center,bottom,topright,right,bottomright"/>
+     <size uiPreview="false" id="size" name="tr:Bar size" customize="false" needKeepRatio="false">
+      <dimension minimum="0" default="200" uiPreview="false" availableUnits="percent,pixel" id="width" name="tr:Width" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension minimum="0" default="10" uiPreview="false" availableUnits="percent,pixel" id="height" name="tr:Height" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     </size>
+     <group uiPreview="false" id="showloadFill" name="tr:Bar color" customize="false">
+      <color default="#000000" uiPreview="false" id="backColor" name="tr:Background color" customize="false" needAlpha="false" allowDynamicSource="false" source="customColor"/>
+      <color default="#dddddd" uiPreview="false" id="loadColor" name="tr:Load color" customize="false" needAlpha="false" allowDynamicSource="false" source="customColor"/>
+     </group>
+    </param>
+    <param default="true" uiPreview="false" id="showwaitVisible" name="tr:Display Looping wheel" customize="false"/>
+    <param conditionalParam="showwaitVisible" uiPreview="false" id="showwait" name="tr:Looping wheel" customize="false" conditionalValues="true">
+     <position yUnit="pixel" default="center" needOrientation="false" y="0" yUnits="pixel" defaultOrientation="horizontal" uiPreview="false" id="showwaitPosition" name="tr:Position" x="0" customize="false" xUnit="pixel" xUnits="pixel" availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center"/>
+     <group uiPreview="false" id="showwaitParams" name="tr:Dots of looping wheel" customize="false">
+      <color default="#ffffff" uiPreview="false" id="showwaitColor" name="tr:Dots color" customize="false" needAlpha="false" allowDynamicSource="false" source="customColor"/>
+     </group>
+    </param>
+    <param uiPreview="false" id="" customize="false">
+     <group conditionalParam="showloadVisible" uiPreview="false" id="showloadadvanced" name="tr:Loading bar" customize="false" conditionalValues="true">
+      <group uiPreview="false" id="showloadBorderGroup" name="tr:Bar border" customize="false">
+       <bool default="false" uiPreview="false" id="showloadBorder" name="tr:Display border" customize="false"/>
+       <row uiPreview="false" id="loadborderrow" customize="false">
+        <dimension conditionalParam="showloadBorder" minimum="0" default="1" uiPreview="false" availableUnits="pixel" id="showloadBorderwidth" name="tr:Width" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+        <color conditionalParam="showloadBorder" default="#111111" uiPreview="false" id="showloadBordercolor" name="tr:Color" customize="false" needAlpha="false" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+       </row>
+      </group>
+      <group uiPreview="false" id="showloadGlowGroup" name="tr:Bar glow" customize="false">
+       <bool default="false" uiPreview="false" id="showloadGlow" name="tr:Display outer glow" customize="false"/>
+       <row uiPreview="false" id="loadglowrow" customize="false">
+        <dimension conditionalParam="showloadGlow" minimum="0" default="8" uiPreview="false" availableUnits="pixel" id="showloadGlowwidth" name="tr:Glow width" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+        <color conditionalParam="showloadGlow" default="#ffffff" uiPreview="false" id="showloadGlowcolor" name="tr:Glow color" customize="false" needAlpha="false" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+       </row>
+      </group>
+      <group uiPreview="false" id="showloadFillAdvanced" name="tr:Bar color" customize="false">
+       <bool default="true" uiPreview="false" id="shadedStyle" name="tr:Display inner glow" customize="false"/>
+      </group>
+     </group>
+     <group conditionalParam="showwaitVisible" uiPreview="false" id="showwaitadvanced" name="tr:Looping wheel" customize="false" conditionalValues="true">
+      <dimension minimum="0" default="15" uiPreview="false" availableUnits="pixel" id="showwaitSize" name="tr:Radius of looping wheel" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      <label uiPreview="false" id="showwaitHTML5onlylabel" name="tr:The following advanced parameters will only be applied on the flash player" customize="false"/>
+      <group uiPreview="false" id="showwaitParamsAdvanced" name="tr:Dots of looping wheel" customize="false">
+       <number suffix="" minimum="0" default="15" uiPreview="false" id="showwaitPoints" name="tr:Number of dots" customize="false" maximum="9999"/>
+       <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="showwaitBigpoint" name="tr:Size of biggest dot" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+       <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="showwaitSmallpoint" name="tr:Size of smallest dot" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      </group>
+      <group conditionalParam="showwaitVisible" uiPreview="false" id="showwaitGlowGroup" name="tr:Loopings glow" customize="false" conditionalValues="true">
+       <bool default="true" uiPreview="false" id="showwaitGlow" name="tr:Display outer glow" customize="false"/>
+       <row uiPreview="false" id="waitglowrow" customize="false">
+        <dimension conditionalParam="showwaitGlow" minimum="0" default="8" uiPreview="false" availableUnits="pixel" id="showwaitGlowWidth" name="tr:Width" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+        <color conditionalParam="showwaitGlow" default="#ffffff" uiPreview="false" id="showwaitGlowColor" name="tr:Color" customize="false" needAlpha="false" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+       </row>
+      </group>
+     </group>
+    </param>
+   </plugin>
+   <plugin name="WebVR Button" id="webvrbutton">
+    <param uiPreview="false" id="position_group" name="tr:Position" customize="false">
+     <position yUnit="pixel" default="topright" needOrientation="false" y="10" yUnits="pixel" defaultOrientation="horizontal" uiPreview="false" id="position" name="tr:Position" x="10" customize="false" xUnit="pixel" xUnits="pixel" availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center"/>
+    </param>
+    <param uiPreview="false" id="display" name="tr:Display" customize="false">
+     <bool default="false" uiPreview="false" id="custom_file" name="tr:Use a custom icon" customize="false"/>
+     <filechooser conditionalParam="custom_file" allowEmpty="false" default="" filters="images,flash" allowRemote="true" uiPreview="false" id="file" name="tr:File" customize="false" conditionalValues="true"/>
+     <color defaultAlpha="1" conditionalParam="custom_file" default="#cccccc" uiPreview="false" id="file_color" name="tr:Icon color" customize="false" needAlpha="true" conditionalValues="false" allowDynamicSource="false" source="currentProjectBackground"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltip" name="tr:Tooltip" customize="false"/>
+    </param>
+    <param uiPreview="false" id="size" name="tr:Size" customize="false" needKeepRatio="false">
+     <dimension minimum="0" default="50" uiPreview="false" availableUnits="percent,pixel" id="width" name="tr:Width" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     <dimension conditionalParam="custom_file" minimum="0" default="0" uiPreview="false" availableUnits="percent,pixel" id="height" name="tr:Height" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+    </param>
+    <param uiPreview="false" id="tooltip_group" name="tr:Tooltip style" customize="false">
+     <bool default="false" uiPreview="false" id="custom_tooltips" name="tr:Use custom tooltip style" customize="false"/>
+     <tooltipstyle roundedge="0" shadowed="true" conditionalParam="custom_tooltips" fontfamily="Arial" borderwidth="0" displayBackground="false" uiPreview="false" fontsize="14" id="custom_tooltips_style" name="tr:Custom tooltip style" customize="false" conditionalValues="true" fontstyle="bold">
+      <foregroundColor alpha="1" color="#ffffff" source="customColor"/>
+      <backgroundColor alpha="0.8" color="#aeaeae" source="customColor"/>
+      <borderColor alpha="1" color="#ffffff" source="customColor"/>
+      <shadowColor alpha="1" color="#000000" source="customColor"/>
+     </tooltipstyle>
+    </param>
+    <param uiPreview="false" id="behaviors" name="tr:Behavior" customize="false">
+     <bool default="true" uiPreview="false" id="hideonhidecontrols" name="tr:Respond to show/hide controls request" customize="false" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component"/>
+    </param>
+    <param uiPreview="false" id="" customize="false">
+     <bool default="true" uiPreview="false" id="mobile_only" name="tr:Available only on mobile device" customize="false"/>
+    </param>
+   </plugin>
+   <plugin name="Social Button" id="socialButton">
+    <param uiPreview="false" id="position_group" name="tr:Position" customize="false">
+     <position yUnit="pixel" default="topright" needOrientation="false" y="50" yUnits="pixel" defaultOrientation="horizontal" uiPreview="false" id="position" name="tr:Position" x="10" customize="false" xUnit="pixel" xUnits="pixel" availableValues="topleft,topright,top,bottomleft,bottomright,bottom,left,right,center"/>
+    </param>
+    <param uiPreview="false" id="display_group" name="tr:Display" customize="false">
+     <select default="facebook" uiPreview="false" id="social_source" name="tr:Social network" customize="false">
+      <item name="Facebook" value="facebook"/>
+      <item name="Twitter" value="twitter"/>
+      <item name="Google+" value="google"/>
+     </select>
+     <string needTranslation="true" default="" uiPreview="false" id="social_href" name="tr:Specific URL" customize="false" description="tr:Use a specific URL"/>
+     <label uiPreview="false" id="social_href_msg" name="tr:By default the tour URL will be used." customize="false"/>
+    </param>
+    <param conditionalParam="social_source" uiPreview="false" id="facebook_group" name="tr:Facebook" customize="false" conditionalValues="facebook">
+     <select default="like" uiPreview="false" id="fb_action" name="tr:Button action" customize="false">
+      <item name="Like" value="like"/>
+      <item name="Share" value="share"/>
+     </select>
+     <select conditionalParam="fb_action" default="button" uiPreview="false" id="fb_layout_like" name="tr:Button layout" customize="false" conditionalValues="like">
+      <item name="Button" value="button"/>
+      <item name="Button with horizontal counter" value="button_count"/>
+      <item name="Button with vertical counter" value="box_count"/>
+      <item name="Button with informations" value="standard"/>
+     </select>
+     <select conditionalParam="fb_action" default="button" uiPreview="false" id="fb_layout_share" name="tr:Button layout" customize="false" conditionalValues="share">
+      <item name="Button" value="button"/>
+      <item name="Button with horizontal counter" value="button_count"/>
+      <item name="Button with vertical counter" value="box_count"/>
+      <item name="Icon" value="icon"/>
+      <item name="Icon with text link" value="icon_link"/>
+      <item name="Text link" value="link"/>
+     </select>
+     <string needTranslation="true" default="" uiPreview="false" id="fb_appid" name="tr:Application ID" customize="false" description="tr:The application ID can be specified here"/>
+     <select conditionalParam="fb_layout_like" default="light" uiPreview="false" id="fb_color" name="tr:Color scheme for text" customize="false" conditionalValues="standard">
+      <item name="Light" value="light"/>
+      <item name="Dark" value="dark"/>
+     </select>
+     <bool conditionalParam="fb_layout_like" default="false" uiPreview="false" id="fb_faces" name="tr:Show faces" customize="false" conditionalValues="standard" description="tr:Specifies whether to display profile photos below the button"/>
+     <dimension conditionalParam="fb_layout_like" minimum="225" default="450" uiPreview="false" availableUnits="pixel" id="fb_width" name="tr:Button width" customize="false" conditionalValues="standard" maximum="900" currentUnit="pixel" needAutomatic="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="fb_ref" name="tr:Referral tracker" customize="false" description="tr:A label for tracking referrals"/>
+    </param>
+    <param conditionalParam="social_source" uiPreview="false" id="twitter_group" name="tr:Twitter" customize="false" conditionalValues="twitter">
+     <select default="button" uiPreview="false" id="tw_layout_tweet" name="tr:Button layout" customize="false">
+      <item name="Button" value="button"/>
+      <item name="Button with horizontal counter" value="button_count"/>
+     </select>
+     <string needTranslation="true" default="" uiPreview="false" id="tw_via" name="tr:via @" customize="false" description="tr:To attribute the source of a Tweet to a Twitter username"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tw_text" name="tr:Specific text" customize="false" description="tr:By default the page title will be used"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tw_hashtag" name="tr:Hashtag" customize="false" description="tr:The application ID can be specified here"/>
+     <select default="standard" uiPreview="false" id="tw_size" name="tr:Button size" customize="false">
+      <item name="Standard" value="standard"/>
+      <item name="Large" value="large"/>
+     </select>
+    </param>
+    <param conditionalParam="social_source" uiPreview="false" id="google_group" name="tr:Google+" customize="false" conditionalValues="google">
+     <select default="share" uiPreview="false" id="go_action" name="tr:Button action" customize="false">
+      <item name="Share" value="share"/>
+      <item name="+1" value="like"/>
+     </select>
+     <select conditionalParam="go_action" default="button" uiPreview="false" id="go_layout_like" name="tr:Button layout" customize="false" conditionalValues="like">
+      <item name="Button" value="button"/>
+      <item name="Button with horizontal counter" value="button_count"/>
+      <item name="Button with informations" value="standard"/>
+     </select>
+     <select conditionalParam="go_action" default="button" uiPreview="false" id="go_layout_share" name="tr:Button layout" customize="false" conditionalValues="share">
+      <item name="Button" value="button"/>
+      <item name="Button with horizontal counter" value="button_count"/>
+      <item name="Button with vertical counter" value="box_count"/>
+      <item name="Button with informations" value="standard"/>
+     </select>
+     <select default="standard" uiPreview="false" id="go_size" name="tr:Button size" customize="false">
+      <item name="Standard" value="standard"/>
+      <item name="Small" value="small"/>
+     </select>
+     <dimension conditionalParam="go_layout_like" minimum="120" default="450" uiPreview="false" availableUnits="pixel" id="go_width_like" name="tr:Button width" customize="false" conditionalValues="standard" maximum="900" currentUnit="pixel" needAutomatic="false"/>
+     <dimension conditionalParam="go_layout_share" minimum="120" default="450" uiPreview="false" availableUnits="pixel" id="go_width_share" name="tr:Button width" customize="false" conditionalValues="standard" maximum="900" currentUnit="pixel" needAutomatic="false"/>
+    </param>
+    <param uiPreview="false" id="behavior" name="tr:Behavior" customize="false">
+     <bool default="false" uiPreview="false" id="hide_on_hide_controls" name="tr:Respond to show/hide controls requests" customize="false" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component"/>
+    </param>
+   </plugin>
+  </plugins>
+  <mapWeb zoom="11" y="-1" objectId="105930" x="-1" longitude="-9999" latitude="-9999">
+   <description/>
+   <autospots/>
+  </mapWeb>
+  <author objectId="1" url="http://in360.ca">
+   <description name="in360"/>
+  </author>
+  <tooltipstyle roundedge="0" shadowed="true" fontfamily="Arial" borderwidth="0" displayBackground="false" fontsize="14" fontstyle="bold">
+   <foregroundColor alpha="1" color="#ffffff" source="customColor"/>
+   <backgroundColor alpha="1" color="#aeaeae" source="customColor"/>
+   <borderColor alpha="1" color="#ffffff" source="customColor"/>
+   <shadowColor alpha="1" color="#000000" source="customColor"/>
+  </tooltipstyle>
+  <presetActions>
+   <presetAction locked="False" spotType="point" isDefault="True" objectId="0" id="user_defaultpoint0" type="actionicon" timestamp="0">
+    <description previewFile=":/UI/spotpointpreview.png" name="Default Point Spot Style 1" description="tr:This is the default preset for point spots"/>
+    <display type="point">
+     <bool default="true" uiPreview="false" id="fileorlib" name="Use icon from library" customize="false"/>
+     <filechooser conditionalParam="fileorlib" allowEmpty="false" default="" filters="images,flash" allowRemote="true" uiPreview="false" id="icon" name="Icon file" customize="false" conditionalValues="false"/>
+     <spoticonchooser conditionalParam="fileorlib" default="colorizeabledefaultspot|tr:Neutral|sequence" uiPreview="false" id="iconChooser" name="Icon" customize="false" conditionalValues="true" allowSequences="true"/>
+     <row conditionalParam="fileorlib" uiPreview="false" id="rowcolor" customize="false" conditionalValues="true">
+      <bool default="true" uiPreview="false" id="customcolor" name="Custom color" customize="false"/>
+      <color defaultAlpha="0.1" conditionalParam="customcolor" default="#000000" uiPreview="false" id="iconcolor" name="Color" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="currentProjectBackground"/>
+     </row>
+     <size uiPreview="false" id="size" name="Size" customize="false" needKeepRatio="false">
+      <dimension minimum="0" default="60" uiPreview="false" availableUnits="pixel" id="width" name="Width" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension minimum="0" default="60" uiPreview="false" availableUnits="pixel" id="height" name="Height" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+     </size>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="false" uiPreview="false" id="zoom" name="Change size according to zoom level" customize="false"/>
+      <bool default="false" uiPreview="false" id="alphaonhover" name="Change transparency on over" customize="false"/>
+      <bool default="false" uiPreview="false" id="scaleonhover" name="Scale on over" customize="false"/>
+      <number suffix=" °" minimum="0" default="0" uiPreview="false" id="rotationAngle" name="Rotation angle" customize="false" maximum="360"/>
+      <select default="center" uiPreview="false" id="anchor" name="Anchor position" customize="false">
+       <item name="Center" value="center"/>
+       <item name="Bottom" value="bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common" flags="haspermanenttooltip">
+     <bool default="true" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="%p" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+     <select default="tooltipdesktoponhover" uiPreview="false" id="permanentTooltipDesktop" name="Tooltip rule for desktop" customize="false">
+      <item name="On hover" value="tooltipdesktoponhover"/>
+      <item name="Permanent" value="tooltipdesktoppermanent"/>
+     </select>
+     <select default="tooltipdevicesnever" uiPreview="false" id="permanentTooltipDevices" name="Tooltip rule for tablet/mobile devices" customize="false">
+      <item name="Never" value="tooltipdevicesnever"/>
+      <item name="Permanent" value="tooltipdevicespermanent"/>
+     </select>
+    </display>
+    <action locked="False" actionChooserRef="" customTargetView="False" category="basic" targetId="-1" startFov="0" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="-1" internal="0" description="Load a specific panorama or the first panorama of a specific group." startPitch="0" depends="">
+     <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Look to the spot" value="looktospot"/>
+      <item name="Zoom in on the spot" value="zoominonspot"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction locked="False" spotType="lensflare" isDefault="True" objectId="0" id="user_defaultlensflare0" type="actionlensflare" timestamp="0">
+    <description previewFile=":/UI/spotlensflarepreview.png" name="Default Lensflare Style 1" description="tr:This is the default preset for lensflares"/>
+   </presetAction>
+   <presetAction locked="False" spotType="pointmap" isDefault="True" objectId="0" id="user_defaultmap0" type="actioniconmap" timestamp="0">
+    <description previewFile="C:/Program Files/Kolor/Panotour Pro 2.5/Resources/spots/classic/hotspot_neutral.png" name="Default Map Spot Style 1" description="tr:This is the default preset"/>
+    <display type="pointmap">
+     <bool default="true" uiPreview="false" id="fileorlib" name="Use icon from library" customize="false"/>
+     <filechooser conditionalParam="fileorlib" allowEmpty="false" default="" filters="images,flash" allowRemote="true" uiPreview="false" id="icon" name="Icon file" customize="false" conditionalValues="false"/>
+     <spoticonchooser conditionalParam="fileorlib" default="theme02|tr:Neutral|image" uiPreview="false" id="iconChooser" name="Icon" customize="false" conditionalValues="true" allowSequences="false"/>
+     <row conditionalParam="fileorlib" uiPreview="false" id="rowcolor" customize="false" conditionalValues="true">
+      <bool default="false" uiPreview="false" id="customcolor" name="Custom color" customize="false"/>
+      <color defaultAlpha="1" conditionalParam="customcolor" default="#fdc400" uiPreview="false" id="iconcolor" name="Color" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+     </row>
+     <size uiPreview="false" id="size" name="Size" customize="false" needKeepRatio="false">
+      <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="width" name="Width" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="height" name="Height" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+     </size>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <select default="center" uiPreview="false" id="anchor" name="Anchor position" customize="false">
+       <item name="Center" value="center"/>
+       <item name="Bottom" value="bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" customTargetView="False" category="basic" targetId="-1" startFov="0" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="-1" internal="0" description="Load a specific panorama or the first panorama of a specific group." startPitch="0" depends="">
+     <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction locked="False" spotType="rectpicture" isDefault="True" objectId="0" id="user_defaultimage0" type="actionrectpicture" timestamp="0">
+    <description previewFile=":/UI/spotpicturepreview.png" name="Default Picture Spot Style 1" description="tr:This is the default preset for picture hotspots"/>
+    <display type="rectpicture">
+     <select default="always" uiPreview="false" id="picturedisplay" name="Picture display" customize="false">
+      <item name="Always" value="always"/>
+      <item name="On hover" value="onhover"/>
+      <item name="On click" value="onclick"/>
+      <item name="Hidden" value="hidden"/>
+     </select>
+     <number suffix=" ms" conditionalParam="picturedisplay" minimum="0" default="0" uiPreview="false" id="changepicturedelay" name="Fade in/out duration" customize="false" conditionalValues="onhover,onclick" maximum="2000"/>
+     <group conditionalParam="picturedisplay" uiPreview="false" id="flyonclickGrp" name="Maximize picture options" customize="false" conditionalValues="always,onhover,hidden">
+      <bool default="false" uiPreview="false" id="flyonclick" name="Maximize picture on click" customize="false"/>
+      <dimension conditionalParam="flyonclick" minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="flyingwidth" name="Maximized width" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension conditionalParam="flyonclick" minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="flyingheight" name="Maximized height" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     </group>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="false" uiPreview="false" id="parallax" name="Parallax effect" customize="false"/>
+      <select conditionalParam="parallax" default="0.5" uiPreview="false" id="parallaxstrength" name="Parallax strength" customize="false" conditionalValues="true">
+       <item name="Small" value="0.25"/>
+       <item name="Medium" value="0.5"/>
+       <item name="Large" value="0.75"/>
+       <item name="Maximum" value="1.00"/>
+      </select>
+      <select conditionalParam="parallax" default="rotation" uiPreview="false" id="parallaxmode" name="Parallax mode" customize="false" conditionalValues="true">
+       <item name="Move in same direction as the sphere" value="rotation"/>
+       <item name="Move in opposite direction of the sphere" value="displacement"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" category="" callTemplate="" id="none" name="" type="" contentTemplate="" internal="0" description="" depends=""/>
+   </presetAction>
+   <presetAction locked="False" spotType="polygon" isDefault="True" objectId="0" id="user_defaultpolygon0" type="actionpolygon" timestamp="0">
+    <description previewFile=":/UI/spotpolygonpreview.png" name="Default Polygon Spot Style 1" description="tr:This is the default preset for polygon hotspots"/>
+    <display type="polygon">
+     <select default="always" uiPreview="false" id="displayedwhen" name="Hotspots displayed" customize="false">
+      <item name="Always" value="always"/>
+      <item name="On hover" value="onhover"/>
+      <item name="Never" value="never"/>
+     </select>
+     <color defaultAlpha="1" default="#ffffff" uiPreview="false" id="bordercolor" name="Border color" customize="false" needAlpha="true" allowDynamicSource="false" source="customColor"/>
+     <dimension minimum="0" default="1" uiPreview="false" availableUnits="pixel" id="borderwidth" name="Border width" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     <color defaultAlpha="0.4" default="#ffffff" uiPreview="false" id="fillcolor" name="Fill color" customize="false" needAlpha="true" allowDynamicSource="false" source="customColor"/>
+     <group conditionalParam="displayedwhen" uiPreview="false" id="displayedWhenAlwaysGrp" name="Display options on hover state" customize="false" conditionalValues="always">
+      <bool default="false" uiPreview="false" id="alwayshoverstate" name="Change display on hover" customize="false"/>
+      <color defaultAlpha="1" conditionalParam="alwayshoverstate" default="#ffffff" uiPreview="false" id="bordercolorhover" name="Border color on hover" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+      <dimension conditionalParam="alwayshoverstate" minimum="0" default="4" uiPreview="false" availableUnits="pixel" id="borderwidthhover" name="Border width on hover" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      <color defaultAlpha="0.6" conditionalParam="alwayshoverstate" default="#ffffff" uiPreview="false" id="fillcolorhover" name="Fill color on hover" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+     </group>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" customTargetView="False" category="basic" targetId="-1" startFov="0" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="-1" internal="0" description="Load a specific panorama or the first panorama of a specific group." startPitch="0" depends="">
+     <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Look to the spot" value="looktospot"/>
+      <item name="Zoom in on the spot" value="zoominonspot"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction locked="False" spotType="sound" isDefault="True" objectId="0" id="user_defaultsound0" type="actionsound" timestamp="0">
+    <description previewFile=":/UI/spotsoundpreview.png" name="Default Sound Spot Style 1" description="tr:This is the default preset for sound hotspots"/>
+    <display type="sound">
+     <bool default="true" uiPreview="false" id="endless" name="Endless sound" customize="false"/>
+     <number suffix="" conditionalParam="endless" minimum="1" default="1" uiPreview="false" id="loops" name="Number of loops" customize="false" conditionalValues="false" maximum="9999"/>
+     <number suffix=" °" minimum="0" default="90" uiPreview="false" id="range" name="Sound Range" customize="false" maximum="360"/>
+     <label uiPreview="false" id="rangewarning" name="The directional sound can only be applied into the Flash player. On HTML5 player the directional sound will be played as a standard sound." customize="false"/>
+    </display>
+   </presetAction>
+   <presetAction locked="False" spotType="rectvideo,livepano" isDefault="True" objectId="0" id="user_defaultvideo0" type="actionrectvideo" timestamp="0">
+    <description previewFile=":/UI/spotvideopreview.png" name="Default Video Spot Style 1" description="tr:This is the default preset for video hotspots"/>
+    <display type="rectvideo">
+     <bool default="true" uiPreview="false" id="loop" name="Loop when reaching end" customize="false"/>
+     <bool default="false" uiPreview="false" id="pausedonstart" name="Paused on start" customize="false"/>
+     <bool default="false" uiPreview="false" id="controlsplaypause" name="Display Play and Pause buttons over the video" customize="false"/>
+     <bool default="true" uiPreview="false" id="directionalsound" name="Directional sound" customize="false"/>
+     <number suffix=" °" conditionalParam="directionalsound" minimum="0" default="90" uiPreview="false" id="range" name="Sound Range" customize="false" conditionalValues="true" maximum="360"/>
+     <label conditionalParam="directionalsound" uiPreview="false" id="rangewarning" name="The directional sound can only be applied into the Flash player. On HTML5 player the directional sound will be played as a standard sound." customize="false" conditionalValues="true"/>
+     <bool default="false" uiPreview="false" id="mutevideo" name="Mute video" customize="false"/>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="true" uiPreview="false" id="useloaderanimation" name="Display a loading animation before the video is displayed" customize="false"/>
+      <bool default="true" uiPreview="false" id="pausebackgroundsound" name="Pause other sounds when video is playing" customize="false"/>
+      <bool default="false" uiPreview="false" id="parallax" name="Parallax effect" customize="false"/>
+      <select conditionalParam="parallax" default="0.5" uiPreview="false" id="parallaxstrength" name="Parallax strength" customize="false" conditionalValues="true">
+       <item name="Small" value="0.25"/>
+       <item name="Medium" value="0.5"/>
+       <item name="Large" value="0.75"/>
+       <item name="Maximum" value="1.00"/>
+      </select>
+      <select conditionalParam="parallax" default="rotation" uiPreview="false" id="parallaxmode" name="Parallax mode" customize="false" conditionalValues="true">
+       <item name="Move in same direction as the sphere" value="rotation"/>
+       <item name="Move in opposite direction of the sphere" value="displacement"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" category="" callTemplate="" id="none" name="" type="" contentTemplate="" internal="0" description="" depends=""/>
+   </presetAction>
+   <presetAction locked="False" spotType="point" isDefault="True" objectId="0" id="user_defaultpoint1" type="actionicon" timestamp="0">
+    <description previewFile="C:/Program Files/Kolor/Panotour Pro 2.5/Resources/spots/aged/hotspot_information.png" name="Default Point Spot Style 2" description="tr:This is the default preset for point spots"/>
+    <display type="point">
+     <bool default="true" uiPreview="false" id="fileorlib" name="Use icon from library" customize="false"/>
+     <filechooser conditionalParam="fileorlib" allowEmpty="false" default="" filters="images,flash" allowRemote="true" uiPreview="false" id="icon" name="Icon file" customize="false" conditionalValues="false"/>
+     <spoticonchooser conditionalParam="fileorlib" default="theme04|tr:Information|image" uiPreview="false" id="iconChooser" name="Icon" customize="false" conditionalValues="true" allowSequences="true"/>
+     <row conditionalParam="fileorlib" uiPreview="false" id="rowcolor" customize="false" conditionalValues="true">
+      <bool default="true" uiPreview="false" id="customcolor" name="Custom color" customize="false"/>
+      <color defaultAlpha="1" conditionalParam="customcolor" default="#ffffff" uiPreview="false" id="iconcolor" name="Color" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+     </row>
+     <size uiPreview="false" id="size" name="Size" customize="false" needKeepRatio="false">
+      <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="width" name="Width" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="height" name="Height" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+     </size>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="false" uiPreview="false" id="zoom" name="Change size according to zoom level" customize="false"/>
+      <bool default="false" uiPreview="false" id="alphaonhover" name="Change transparency on over" customize="false"/>
+      <bool default="false" uiPreview="false" id="scaleonhover" name="Scale on over" customize="false"/>
+      <number suffix=" °" minimum="0" default="0" uiPreview="false" id="rotationAngle" name="Rotation angle" customize="false" maximum="360"/>
+      <select default="center" uiPreview="false" id="anchor" name="Anchor position" customize="false">
+       <item name="Center" value="center"/>
+       <item name="Bottom" value="bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common" flags="haspermanenttooltip">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+     <select default="tooltipdesktoponhover" uiPreview="false" id="permanentTooltipDesktop" name="Tooltip rule for desktop" customize="false">
+      <item name="On hover" value="tooltipdesktoponhover"/>
+      <item name="Permanent" value="tooltipdesktoppermanent"/>
+     </select>
+     <select default="tooltipdevicesnever" uiPreview="false" id="permanentTooltipDevices" name="Tooltip rule for tablet/mobile devices" customize="false">
+      <item name="Never" value="tooltipdevicesnever"/>
+      <item name="Permanent" value="tooltipdevicespermanent"/>
+     </select>
+    </display>
+    <action locked="False" actionChooserRef="" category="" callTemplate="" id="none" name="None" type="" contentTemplate="" internal="0" description="" depends=""/>
+   </presetAction>
+   <presetAction locked="False" spotType="lensflare" isDefault="True" objectId="0" id="user_defaultlensflare1" type="actionlensflare" timestamp="0">
+    <description previewFile=":/UI/spotlensflarepreview.png" name="Default Lensflare Style 2" description="tr:This is the default preset for lensflares"/>
+   </presetAction>
+   <presetAction locked="False" spotType="pointmap" isDefault="True" objectId="0" id="user_defaultmap1" type="actioniconmap" timestamp="0">
+    <description previewFile="C:/Program Files/Kolor/Panotour Pro 2.5/Resources/spots/classic/hotspot_neutral.png" name="Default Map Spot Style 2" description="tr:This is the default preset"/>
+    <display type="pointmap">
+     <bool default="true" uiPreview="false" id="fileorlib" name="Use icon from library" customize="false"/>
+     <filechooser conditionalParam="fileorlib" allowEmpty="false" default="" filters="images,flash" allowRemote="true" uiPreview="false" id="icon" name="Icon file" customize="false" conditionalValues="false"/>
+     <spoticonchooser conditionalParam="fileorlib" default="theme02|tr:Neutral|image" uiPreview="false" id="iconChooser" name="Icon" customize="false" conditionalValues="true" allowSequences="false"/>
+     <row conditionalParam="fileorlib" uiPreview="false" id="rowcolor" customize="false" conditionalValues="true">
+      <bool default="false" uiPreview="false" id="customcolor" name="Custom color" customize="false"/>
+      <color defaultAlpha="1" conditionalParam="customcolor" default="#fdc400" uiPreview="false" id="iconcolor" name="Color" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+     </row>
+     <size uiPreview="false" id="size" name="Size" customize="false" needKeepRatio="false">
+      <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="width" name="Width" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="height" name="Height" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+     </size>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <select default="center" uiPreview="false" id="anchor" name="Anchor position" customize="false">
+       <item name="Center" value="center"/>
+       <item name="Bottom" value="bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" customTargetView="False" category="basic" targetId="-1" startFov="0" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="-1" internal="0" description="Load a specific panorama or the first panorama of a specific group." startPitch="0" depends="">
+     <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction locked="False" spotType="rectpicture" isDefault="True" objectId="0" id="user_defaultimage1" type="actionrectpicture" timestamp="0">
+    <description previewFile=":/UI/spotpicturepreview.png" name="Default Picture Spot Style 2" description="tr:This is the default preset for picture hotspots"/>
+    <display type="rectpicture">
+     <select default="always" uiPreview="false" id="picturedisplay" name="Picture display" customize="false">
+      <item name="Always" value="always"/>
+      <item name="On hover" value="onhover"/>
+      <item name="On click" value="onclick"/>
+      <item name="Hidden" value="hidden"/>
+     </select>
+     <number suffix=" ms" conditionalParam="picturedisplay" minimum="0" default="0" uiPreview="false" id="changepicturedelay" name="Fade in/out duration" customize="false" conditionalValues="onhover,onclick" maximum="2000"/>
+     <group conditionalParam="picturedisplay" uiPreview="false" id="flyonclickGrp" name="Maximize picture options" customize="false" conditionalValues="always,onhover,hidden">
+      <bool default="false" uiPreview="false" id="flyonclick" name="Maximize picture on click" customize="false"/>
+      <dimension conditionalParam="flyonclick" minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="flyingwidth" name="Maximized width" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension conditionalParam="flyonclick" minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="flyingheight" name="Maximized height" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     </group>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="false" uiPreview="false" id="parallax" name="Parallax effect" customize="false"/>
+      <select conditionalParam="parallax" default="0.5" uiPreview="false" id="parallaxstrength" name="Parallax strength" customize="false" conditionalValues="true">
+       <item name="Small" value="0.25"/>
+       <item name="Medium" value="0.5"/>
+       <item name="Large" value="0.75"/>
+       <item name="Maximum" value="1.00"/>
+      </select>
+      <select conditionalParam="parallax" default="rotation" uiPreview="false" id="parallaxmode" name="Parallax mode" customize="false" conditionalValues="true">
+       <item name="Move in same direction as the sphere" value="rotation"/>
+       <item name="Move in opposite direction of the sphere" value="displacement"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" category="" callTemplate="" id="none" name="" type="" contentTemplate="" internal="0" description="" depends=""/>
+   </presetAction>
+   <presetAction locked="False" spotType="polygon" isDefault="True" objectId="0" id="user_defaultpolygon1" type="actionpolygon" timestamp="0">
+    <description previewFile=":/UI/spotpolygonpreview.png" name="Default Polygon Spot Style 2" description="tr:This is the default preset for polygon hotspots"/>
+    <display type="polygon">
+     <select default="always" uiPreview="false" id="displayedwhen" name="Hotspots displayed" customize="false">
+      <item name="Always" value="always"/>
+      <item name="On hover" value="onhover"/>
+      <item name="Never" value="never"/>
+     </select>
+     <color defaultAlpha="1" default="#ffffff" uiPreview="false" id="bordercolor" name="Border color" customize="false" needAlpha="true" allowDynamicSource="false" source="customColor"/>
+     <dimension minimum="0" default="1" uiPreview="false" availableUnits="pixel" id="borderwidth" name="Border width" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     <color defaultAlpha="0.4" default="#ffffff" uiPreview="false" id="fillcolor" name="Fill color" customize="false" needAlpha="true" allowDynamicSource="false" source="customColor"/>
+     <group conditionalParam="displayedwhen" uiPreview="false" id="displayedWhenAlwaysGrp" name="Display options on hover state" customize="false" conditionalValues="always">
+      <bool default="false" uiPreview="false" id="alwayshoverstate" name="Change display on hover" customize="false"/>
+      <color defaultAlpha="1" conditionalParam="alwayshoverstate" default="#ffffff" uiPreview="false" id="bordercolorhover" name="Border color on hover" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+      <dimension conditionalParam="alwayshoverstate" minimum="0" default="4" uiPreview="false" availableUnits="pixel" id="borderwidthhover" name="Border width on hover" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      <color defaultAlpha="0.6" conditionalParam="alwayshoverstate" default="#ffffff" uiPreview="false" id="fillcolorhover" name="Fill color on hover" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+     </group>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" customTargetView="False" category="basic" targetId="-1" startFov="0" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="-1" internal="0" description="Load a specific panorama or the first panorama of a specific group." startPitch="0" depends="">
+     <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Look to the spot" value="looktospot"/>
+      <item name="Zoom in on the spot" value="zoominonspot"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction locked="False" spotType="sound" isDefault="True" objectId="0" id="user_defaultsound1" type="actionsound" timestamp="0">
+    <description previewFile=":/UI/spotsoundpreview.png" name="Default Sound Spot Style 2" description="tr:This is the default preset for sound hotspots"/>
+    <display type="sound">
+     <bool default="true" uiPreview="false" id="endless" name="Endless sound" customize="false"/>
+     <number suffix="" conditionalParam="endless" minimum="1" default="1" uiPreview="false" id="loops" name="Number of loops" customize="false" conditionalValues="false" maximum="9999"/>
+     <number suffix=" °" minimum="0" default="90" uiPreview="false" id="range" name="Sound Range" customize="false" maximum="360"/>
+     <label uiPreview="false" id="rangewarning" name="The directional sound can only be applied into the Flash player. On HTML5 player the directional sound will be played as a standard sound." customize="false"/>
+    </display>
+   </presetAction>
+   <presetAction locked="False" spotType="rectvideo,livepano" isDefault="True" objectId="0" id="user_defaultvideo1" type="actionrectvideo" timestamp="0">
+    <description previewFile=":/UI/spotvideopreview.png" name="Default Video Spot Style 2" description="tr:This is the default preset for video hotspots"/>
+    <display type="rectvideo">
+     <bool default="true" uiPreview="false" id="loop" name="Loop when reaching end" customize="false"/>
+     <bool default="false" uiPreview="false" id="pausedonstart" name="Paused on start" customize="false"/>
+     <bool default="false" uiPreview="false" id="controlsplaypause" name="Display Play and Pause buttons over the video" customize="false"/>
+     <bool default="true" uiPreview="false" id="directionalsound" name="Directional sound" customize="false"/>
+     <number suffix=" °" conditionalParam="directionalsound" minimum="0" default="90" uiPreview="false" id="range" name="Sound Range" customize="false" conditionalValues="true" maximum="360"/>
+     <label conditionalParam="directionalsound" uiPreview="false" id="rangewarning" name="The directional sound can only be applied into the Flash player. On HTML5 player the directional sound will be played as a standard sound." customize="false" conditionalValues="true"/>
+     <bool default="false" uiPreview="false" id="mutevideo" name="Mute video" customize="false"/>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="true" uiPreview="false" id="useloaderanimation" name="Display a loading animation before the video is displayed" customize="false"/>
+      <bool default="true" uiPreview="false" id="pausebackgroundsound" name="Pause other sounds when video is playing" customize="false"/>
+      <bool default="false" uiPreview="false" id="parallax" name="Parallax effect" customize="false"/>
+      <select conditionalParam="parallax" default="0.5" uiPreview="false" id="parallaxstrength" name="Parallax strength" customize="false" conditionalValues="true">
+       <item name="Small" value="0.25"/>
+       <item name="Medium" value="0.5"/>
+       <item name="Large" value="0.75"/>
+       <item name="Maximum" value="1.00"/>
+      </select>
+      <select conditionalParam="parallax" default="rotation" uiPreview="false" id="parallaxmode" name="Parallax mode" customize="false" conditionalValues="true">
+       <item name="Move in same direction as the sphere" value="rotation"/>
+       <item name="Move in opposite direction of the sphere" value="displacement"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" category="" callTemplate="" id="none" name="" type="" contentTemplate="" internal="0" description="" depends=""/>
+   </presetAction>
+   <presetAction locked="False" spotType="point" isDefault="True" objectId="0" id="user_defaultpoint2" type="actionicon" timestamp="0">
+    <description previewFile=":/UI/spotpointpreview.png" name="Default Point Spot Style 3" description="tr:This is the default preset for point spots"/>
+    <display type="point">
+     <bool default="true" uiPreview="false" id="fileorlib" name="Use icon from library" customize="false"/>
+     <filechooser conditionalParam="fileorlib" allowEmpty="false" default="" filters="images,flash" allowRemote="true" uiPreview="false" id="icon" name="Icon file" customize="false" conditionalValues="false"/>
+     <spoticonchooser conditionalParam="fileorlib" default="colorizeabledefaultspot|tr:Neutral|sequence" uiPreview="false" id="iconChooser" name="Icon" customize="false" conditionalValues="true" allowSequences="true"/>
+     <row conditionalParam="fileorlib" uiPreview="false" id="rowcolor" customize="false" conditionalValues="true">
+      <bool default="true" uiPreview="false" id="customcolor" name="Custom color" customize="false"/>
+      <color defaultAlpha="1" conditionalParam="customcolor" default="#fdc400" uiPreview="false" id="iconcolor" name="Color" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="currentProjectForeground"/>
+     </row>
+     <size uiPreview="false" id="size" name="Size" customize="false" needKeepRatio="false">
+      <dimension minimum="0" default="60" uiPreview="false" availableUnits="pixel" id="width" name="Width" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension minimum="0" default="60" uiPreview="false" availableUnits="pixel" id="height" name="Height" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+     </size>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="false" uiPreview="false" id="zoom" name="Change size according to zoom level" customize="false"/>
+      <bool default="false" uiPreview="false" id="alphaonhover" name="Change transparency on over" customize="false"/>
+      <bool default="false" uiPreview="false" id="scaleonhover" name="Scale on over" customize="false"/>
+      <number suffix=" °" minimum="0" default="0" uiPreview="false" id="rotationAngle" name="Rotation angle" customize="false" maximum="360"/>
+      <select default="center" uiPreview="false" id="anchor" name="Anchor position" customize="false">
+       <item name="Center" value="center"/>
+       <item name="Bottom" value="bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common" flags="haspermanenttooltip">
+     <bool default="true" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="%p" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+     <select default="tooltipdesktoponhover" uiPreview="false" id="permanentTooltipDesktop" name="Tooltip rule for desktop" customize="false">
+      <item name="On hover" value="tooltipdesktoponhover"/>
+      <item name="Permanent" value="tooltipdesktoppermanent"/>
+     </select>
+     <select default="tooltipdevicesnever" uiPreview="false" id="permanentTooltipDevices" name="Tooltip rule for tablet/mobile devices" customize="false">
+      <item name="Never" value="tooltipdevicesnever"/>
+      <item name="Permanent" value="tooltipdevicespermanent"/>
+     </select>
+    </display>
+    <action locked="False" actionChooserRef="" customTargetView="False" category="basic" targetId="-1" startFov="0" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="-1" internal="0" description="Load a specific panorama or the first panorama of a specific group." startPitch="0" depends="">
+     <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Look to the spot" value="looktospot"/>
+      <item name="Zoom in on the spot" value="zoominonspot"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction locked="False" spotType="lensflare" isDefault="True" objectId="0" id="user_defaultlensflare2" type="actionlensflare" timestamp="0">
+    <description previewFile=":/UI/spotlensflarepreview.png" name="Default Lensflare Style 3" description="tr:This is the default preset for lensflares"/>
+   </presetAction>
+   <presetAction locked="False" spotType="pointmap" isDefault="True" objectId="0" id="user_defaultmap2" type="actioniconmap" timestamp="0">
+    <description previewFile="C:/Program Files/Kolor/Panotour Pro 2.5/Resources/spots/classic/hotspot_neutral.png" name="Default Map Spot Style 3" description="tr:This is the default preset"/>
+    <display type="pointmap">
+     <bool default="true" uiPreview="false" id="fileorlib" name="Use icon from library" customize="false"/>
+     <filechooser conditionalParam="fileorlib" allowEmpty="false" default="" filters="images,flash" allowRemote="true" uiPreview="false" id="icon" name="Icon file" customize="false" conditionalValues="false"/>
+     <spoticonchooser conditionalParam="fileorlib" default="theme02|tr:Neutral|image" uiPreview="false" id="iconChooser" name="Icon" customize="false" conditionalValues="true" allowSequences="false"/>
+     <row conditionalParam="fileorlib" uiPreview="false" id="rowcolor" customize="false" conditionalValues="true">
+      <bool default="false" uiPreview="false" id="customcolor" name="Custom color" customize="false"/>
+      <color defaultAlpha="1" conditionalParam="customcolor" default="#fdc400" uiPreview="false" id="iconcolor" name="Color" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+     </row>
+     <size uiPreview="false" id="size" name="Size" customize="false" needKeepRatio="false">
+      <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="width" name="Width" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="height" name="Height" customize="false" maximum="999" currentUnit="pixel" needAutomatic="false"/>
+     </size>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <select default="center" uiPreview="false" id="anchor" name="Anchor position" customize="false">
+       <item name="Center" value="center"/>
+       <item name="Bottom" value="bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" customTargetView="False" category="basic" targetId="-1" startFov="0" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="-1" internal="0" description="Load a specific panorama or the first panorama of a specific group." startPitch="0" depends="">
+     <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction locked="False" spotType="rectpicture" isDefault="True" objectId="0" id="user_defaultimage2" type="actionrectpicture" timestamp="0">
+    <description previewFile=":/UI/spotpicturepreview.png" name="Default Picture Spot Style 3" description="tr:This is the default preset for picture hotspots"/>
+    <display type="rectpicture">
+     <select default="always" uiPreview="false" id="picturedisplay" name="Picture display" customize="false">
+      <item name="Always" value="always"/>
+      <item name="On hover" value="onhover"/>
+      <item name="On click" value="onclick"/>
+      <item name="Hidden" value="hidden"/>
+     </select>
+     <number suffix=" ms" conditionalParam="picturedisplay" minimum="0" default="0" uiPreview="false" id="changepicturedelay" name="Fade in/out duration" customize="false" conditionalValues="onhover,onclick" maximum="2000"/>
+     <group conditionalParam="picturedisplay" uiPreview="false" id="flyonclickGrp" name="Maximize picture options" customize="false" conditionalValues="always,onhover,hidden">
+      <bool default="false" uiPreview="false" id="flyonclick" name="Maximize picture on click" customize="false"/>
+      <dimension conditionalParam="flyonclick" minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="flyingwidth" name="Maximized width" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      <dimension conditionalParam="flyonclick" minimum="0" default="0" uiPreview="false" availableUnits="pixel" id="flyingheight" name="Maximized height" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     </group>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="false" uiPreview="false" id="parallax" name="Parallax effect" customize="false"/>
+      <select conditionalParam="parallax" default="0.5" uiPreview="false" id="parallaxstrength" name="Parallax strength" customize="false" conditionalValues="true">
+       <item name="Small" value="0.25"/>
+       <item name="Medium" value="0.5"/>
+       <item name="Large" value="0.75"/>
+       <item name="Maximum" value="1.00"/>
+      </select>
+      <select conditionalParam="parallax" default="rotation" uiPreview="false" id="parallaxmode" name="Parallax mode" customize="false" conditionalValues="true">
+       <item name="Move in same direction as the sphere" value="rotation"/>
+       <item name="Move in opposite direction of the sphere" value="displacement"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" category="" callTemplate="" id="none" name="" type="" contentTemplate="" internal="0" description="" depends=""/>
+   </presetAction>
+   <presetAction locked="False" spotType="polygon" isDefault="True" objectId="0" id="user_defaultpolygon2" type="actionpolygon" timestamp="0">
+    <description previewFile=":/UI/spotpolygonpreview.png" name="Default Polygon Spot Style 3" description="tr:This is the default preset for polygon hotspots"/>
+    <display type="polygon">
+     <select default="always" uiPreview="false" id="displayedwhen" name="Hotspots displayed" customize="false">
+      <item name="Always" value="always"/>
+      <item name="On hover" value="onhover"/>
+      <item name="Never" value="never"/>
+     </select>
+     <color defaultAlpha="1" default="#ffffff" uiPreview="false" id="bordercolor" name="Border color" customize="false" needAlpha="true" allowDynamicSource="false" source="customColor"/>
+     <dimension minimum="0" default="1" uiPreview="false" availableUnits="pixel" id="borderwidth" name="Border width" customize="false" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+     <color defaultAlpha="0.4" default="#ffffff" uiPreview="false" id="fillcolor" name="Fill color" customize="false" needAlpha="true" allowDynamicSource="false" source="customColor"/>
+     <group conditionalParam="displayedwhen" uiPreview="false" id="displayedWhenAlwaysGrp" name="Display options on hover state" customize="false" conditionalValues="always">
+      <bool default="false" uiPreview="false" id="alwayshoverstate" name="Change display on hover" customize="false"/>
+      <color defaultAlpha="1" conditionalParam="alwayshoverstate" default="#ffffff" uiPreview="false" id="bordercolorhover" name="Border color on hover" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+      <dimension conditionalParam="alwayshoverstate" minimum="0" default="4" uiPreview="false" availableUnits="pixel" id="borderwidthhover" name="Border width on hover" customize="false" conditionalValues="true" maximum="9999" currentUnit="pixel" needAutomatic="false"/>
+      <color defaultAlpha="0.6" conditionalParam="alwayshoverstate" default="#ffffff" uiPreview="false" id="fillcolorhover" name="Fill color on hover" customize="false" needAlpha="true" conditionalValues="true" allowDynamicSource="false" source="customColor"/>
+     </group>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" customTargetView="False" category="basic" targetId="-1" startFov="0" callTemplate="loadpanoramaactioncall.tmpl" id="object" name="Go to a panorama or a group" startYaw="0" type="Object" contentTemplate="" sourceId="-1" internal="0" description="Load a specific panorama or the first panorama of a specific group." startPitch="0" depends="">
+     <select default="none" uiPreview="false" id="sourcetransition" name="Source transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Look to the spot" value="looktospot"/>
+      <item name="Zoom in on the spot" value="zoominonspot"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" id="targettransition" name="Target transition" customize="true">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction locked="False" spotType="sound" isDefault="True" objectId="0" id="user_defaultsound2" type="actionsound" timestamp="0">
+    <description previewFile=":/UI/spotsoundpreview.png" name="Default Sound Spot Style 3" description="tr:This is the default preset for sound hotspots"/>
+    <display type="sound">
+     <bool default="true" uiPreview="false" id="endless" name="Endless sound" customize="false"/>
+     <number suffix="" conditionalParam="endless" minimum="1" default="1" uiPreview="false" id="loops" name="Number of loops" customize="false" conditionalValues="false" maximum="9999"/>
+     <number suffix=" °" minimum="0" default="90" uiPreview="false" id="range" name="Sound Range" customize="false" maximum="360"/>
+     <label uiPreview="false" id="rangewarning" name="The directional sound can only be applied into the Flash player. On HTML5 player the directional sound will be played as a standard sound." customize="false"/>
+    </display>
+   </presetAction>
+   <presetAction locked="False" spotType="rectvideo,livepano" isDefault="True" objectId="0" id="user_defaultvideo2" type="actionrectvideo" timestamp="0">
+    <description previewFile=":/UI/spotvideopreview.png" name="Default Video Spot Style 3" description="tr:This is the default preset for video hotspots"/>
+    <display type="rectvideo">
+     <bool default="true" uiPreview="false" id="loop" name="Loop when reaching end" customize="false"/>
+     <bool default="false" uiPreview="false" id="pausedonstart" name="Paused on start" customize="false"/>
+     <bool default="false" uiPreview="false" id="controlsplaypause" name="Display Play and Pause buttons over the video" customize="false"/>
+     <bool default="true" uiPreview="false" id="directionalsound" name="Directional sound" customize="false"/>
+     <number suffix=" °" conditionalParam="directionalsound" minimum="0" default="90" uiPreview="false" id="range" name="Sound Range" customize="false" conditionalValues="true" maximum="360"/>
+     <label conditionalParam="directionalsound" uiPreview="false" id="rangewarning" name="The directional sound can only be applied into the Flash player. On HTML5 player the directional sound will be played as a standard sound." customize="false" conditionalValues="true"/>
+     <bool default="false" uiPreview="false" id="mutevideo" name="Mute video" customize="false"/>
+     <advanced uiPreview="false" id="advancedGrp" customize="false">
+      <bool default="true" uiPreview="false" id="useloaderanimation" name="Display a loading animation before the video is displayed" customize="false"/>
+      <bool default="true" uiPreview="false" id="pausebackgroundsound" name="Pause other sounds when video is playing" customize="false"/>
+      <bool default="false" uiPreview="false" id="parallax" name="Parallax effect" customize="false"/>
+      <select conditionalParam="parallax" default="0.5" uiPreview="false" id="parallaxstrength" name="Parallax strength" customize="false" conditionalValues="true">
+       <item name="Small" value="0.25"/>
+       <item name="Medium" value="0.5"/>
+       <item name="Large" value="0.75"/>
+       <item name="Maximum" value="1.00"/>
+      </select>
+      <select conditionalParam="parallax" default="rotation" uiPreview="false" id="parallaxmode" name="Parallax mode" customize="false" conditionalValues="true">
+       <item name="Move in same direction as the sphere" value="rotation"/>
+       <item name="Move in opposite direction of the sphere" value="displacement"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="false" uiPreview="false" id="pauserotationonhover" name="Pause autorotation on hover" customize="false"/>
+     <string needTranslation="true" default="" uiPreview="false" id="tooltipTemplate" name="Tooltip template" customize="false"/>
+    </display>
+    <action locked="False" actionChooserRef="" category="" callTemplate="" id="none" name="" type="" contentTemplate="" internal="0" description="" depends=""/>
+   </presetAction>
+   <presetAction locked="False" spotType="rectwebcontent" isDefault="True" objectId="0" id="user_defaultwebcontent0" type="actionrectwebcontent" timestamp="0">
+    <description previewFile=":/UI/spotwebcontentpreview.png" name="Default Web Content Spot Style 1" description="tr:This is the default preset for web content hotspots"/>
+   </presetAction>
+  </presetActions>
+ </project>
+ <filesCache/>
+</panotour>
