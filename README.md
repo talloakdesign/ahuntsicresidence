@@ -1,5 +1,5 @@
 # Ahuntsic Residence
-This is the Panotour project for CEGEP Ahuntsic's 360 photo tour, by <a href="http://in360.ca">in360</a>. 
+This is the Panotour project for the Ahuntsic Residence 360 photo tour, by <a href="http://in360.ca">in360</a>. 
 
 <strong>Note:</strong> 
 * image files are referenced from the directory that contains this repo. 
