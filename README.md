@@ -6,6 +6,10 @@ This is the Panotour project for the Ahuntsic Residence 360 photo tour, by <a hr
 * the "Kolor" folder included here must be located in the Documents folder on the computer opening this project (includes the requisite template files)
 
 # log
+## 1.1.2
+01/17/2018
+Text and info point changes
+
 ## 1.1.1
 01/14/2018
 Graphics update to header
